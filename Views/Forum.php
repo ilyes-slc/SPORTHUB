@@ -149,7 +149,7 @@ include 'includes/head.php'?>
 								<span class="post-comment"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i><a href="#">Report  <?php echo $post['nb_reported'] ?> </a></span>
 								<span class="post-comment"><i class="fa fa-bookmark" aria-hidden="true"></i><a href="#">Bookmark</a></span>
 							</div>
-							<a href="Answers.php" class="btn"><span>read more</span></a>
+							<a href="Answers.php?postid=<?php echo $postid ?>" class="btn"><span>read more</span></a>
 						</div>
 					</div>
 					
