@@ -8,11 +8,12 @@
         private  $text_reply = null;
 
 		
-		function __construct(string $username_reply, string $text_reply ){
+		function __construct(string $username_reply, string $text_reply, int $postid ){
 			
 			
 			$this->username_reply=$username_reply;
 			$this->text_reply=$text_reply;
+			$this->id_reply=$postid;
           
 		}
 		
